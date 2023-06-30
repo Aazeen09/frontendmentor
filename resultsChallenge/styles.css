@@ -1,17 +1,12 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 1.25em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin: 0;
-    min-width: 220px;
-
-}
-
-h2 {
-    display: inline;
+    min-width: 12rem;
 }
 
 #yourresult {
@@ -61,11 +56,16 @@ h2 {
     padding: 1rem;
 }
 
-#subscore {
+.subscore {
     font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: hsl(224, 30%, 27%);
+    width: 100%;
 }
 
-#subscoremax {
+.subscoremax {
     color: hsl(224, 30%, 27%, 0.5);
 }
 
@@ -128,15 +128,6 @@ button:hover {
     justify-content: flex-start;
 }
 
-#subscore {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: hsl(224, 30%, 27%);
-    width: 100%;
-}
-
-
 #memory {
     background-color: hsl(39, 100%, 56%, 5%);
     color: hsl(39, 100%, 56%);
@@ -152,7 +143,7 @@ button:hover {
     color: hsl(234, 85%, 45%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 33rem) {
     main {
         display: flex;
         flex-direction: row;
@@ -169,7 +160,7 @@ button:hover {
         justify-content: center;
         align-items: center;
         border-radius: 1.75rem;
-        box-shadow: 10px 13px 34px 0px rgba(120, 137, 240, 0.20);
+        box-shadow: 10px 13px 15px 0px rgba(120, 137, 240, 0.20);
         -webkit-box-shadow: 10px 13px 34px 0px rgba(120, 137, 240, 0.20);
         -moz-box-shadow: 10px 13px 34px 0px rgba(120, 137, 240, 0.20);
         margin: 2rem;
@@ -187,9 +178,9 @@ button:hover {
         justify-items: flex-start;
         align-content: center;
         width: 50%;
-        max-width: 400px;
+        max-width: 22rem;
         padding: 2rem;
-        height: 400px;
+        height: 22rem;
 
 
     }
@@ -208,5 +199,4 @@ button:hover {
     button {
         padding: 1rem;
     }
-
 }
