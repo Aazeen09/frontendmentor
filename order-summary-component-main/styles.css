@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    width: 327px;
+    height: 568px;
+    margin: 0 auto;
+    background-color: hsl(0, 100%, 100%);
+    text-align: center;
+    box-shadow: -2px 15px 15px 5px rgba(56, 41, 224, 0.15);
+}
+
+#headerimg {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: rgba(22, 30, 61, 0.9);
+    padding: 2rem 2rem 1.5rem 2rem;
+
+}
+
+.greytext {
+    padding-bottom: 2rem;
+    color: rgba(22, 30, 61, 0.5);
+    line-height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.weight700 {
+    font-weight: 700;
+
+}
+
+.price-section {
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+#musiclogo {
+    display: flex;
+    align-self: flex-start;
+}
+
+#annual-plan-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+#annualplan {
+    padding: 5px;
+    font-weight: 700;
+}
+
+#price {
+    color: rgba(22, 30, 61, 0.5);
+    padding: 5px;
+    font-size: 0.90rem;
+}
+
+#change {
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+#change:hover {
+    color: rgb(98, 80, 238);
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(98, 80, 238);
+    cursor: pointer;
+}
+
+#cancel:hover {
+    color: black;
+}
+
+button {
+    width: 85%;
+    margin: auto;
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    height: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    box-shadow: -2px 15px 15px 5px rgba(56, 41, 224, 0.15);
+
+}
+
+#cancel {
+    display: block;
+    margin: 1rem;
+    font-weight: 900;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    main {
+        width: 450px;
+        height: 600px;
+
+    }
+
+
+}
