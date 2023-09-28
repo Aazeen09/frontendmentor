@@ -10,6 +10,7 @@ h2 {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
 }
 
 .sale-price {
@@ -19,4 +20,8 @@ body {
 .original-price {
   font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
+}
+
+#text-container-main {
+  background-color: white;
 }
